@@ -116,6 +116,11 @@ export const siteConfig = {
       ],
     },
     {
+      school: "Udemy",
+      degree: "Microservices",
+      dateRange: "2024",
+    },
+    {
       school: "LinkedIn learning",
       degree: "Git for System Administration",
       dateRange: "2021",
