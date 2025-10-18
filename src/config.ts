@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Satya Ashok Dowluri",
-  title: "Software Engineer, Graduate Researcher",
+  title: "Software Engineer | Graduate Student Researcher",
   description: "Portfolio website of Satya Ashok Dowluri",
   accentColor: "#1d4ed8",
   social: {
@@ -23,7 +23,7 @@ export const siteConfig = {
         "Proposed and implemented a benchmark-specific tuning methodology for JIT thresholds, optimizing execution time, memory usage, and cache performance.",
         "Achieved measurable runtime and resource efficiency improvements, contributing to the understanding of Python’s JIT internals."
       ],
-        link: "https://github.com/maveric0025/th",
+        link: "https://github.com/maveric0025",
       skills: ["Python", "PyPy", "Bash Scripting"],
     },
     {
@@ -41,6 +41,20 @@ export const siteConfig = {
         link: "https://github.com/maverick0025/distributedSystemsAndCloudComputingInJava",
       skills: ["Java", "ZooKeeper", "GCP", "HA Proxy", "Kafka", "Protocol Buffer"],
     },
+    {
+      name: "Privacy Preserving Dissease Detection using Neural Networks",
+      description:
+      [
+        "Computation of 5-statistical features obtained from the extracted QRS complex of an ECG wave then uses the CKKS Homomorphic encryption scheme to encrypt the computed features and send them to the cloud for automatic detection of Left/Right Bundle blocks from a bed-ridden patient suffering from Blockages in the Heart using a Neural Network.",
+        "Developed an innovative technique for detecting Bundle Branch Blocks (BBB) while preserving user privacy.",
+        "Leveraged statistical feature extraction from QRS complexes and privacy-preserving neural networks, ensuring that sensitive medical data remained encrypted throughout the process.",
+        "Utilized CKKS encryption to perform operations on encrypted statistical features, allowing the neural network to predict disease status without decryption.",
+        "Achieved 83.7% accuracy",
+        "Addressed the limitations of homomorphic encryption schemes, which primarily support multiplication and addition operations, by approximating nonlinear activation functions to polynomials."
+      ],
+      link: "https://github.com/maverick0025/major-project",
+      skills: ["Python","Scipy","Keras", "Wavelet Neural Networks"],
+    }
   ],
 
   experience: [
@@ -116,16 +130,32 @@ export const siteConfig = {
       ],
     },
     {
-      school: "Udemy",
-      degree: "Microservices",
-      dateRange: "2024",
+      school: "Certifications",
+      degree: "Udemy",
+      dateRange: "2023 - 2025",
+      achievements: [
+        "Microservices with Spring Boot and Spring Cloud",
+        "Multi-threading, Parallel \& Asynchronous Coding in Java",
+        "Distributed Systems and Cloud Computing in Java"
+      ],
     },
     {
-      school: "LinkedIn learning",
-      degree: "Git for System Administration",
-      dateRange: "2021",
+      school: "Certifications",
+      degree: "LinkedInLearning",
+      dateRange: "2021-2023",
       achievements: [
-        "https://www.linkedin.com/learning/certificates/1ff538d68c55f5a46bf0dacec38e1ef7ad5f086ee6ac106d3919eda5349134a5"
+        "Java Object-Oriented Programming",
+        "JavaScript Essential Training",
+        "Learning Spring with Spring Boot",
+        "Git for System Administration"
+      ],
+    },
+    {
+      school: "Certifications",
+      degree: "Coursera",
+      dateRange: "2020",
+      achievements: [
+        "IBM Machine Learning with Python Professional Certification",
       ],
     },
   ],
