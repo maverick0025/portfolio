@@ -9,7 +9,7 @@ export const siteConfig = {
     twitter: "https://x.com/Satya_Ashok_",
     github: "https://github.com/maverick0025",
   },
-  aboutMe: "I believe discipline triumphs motivation. I'm crazy about distribute systems and fintech. At the moment, I'm juggling through a lot of things: my thesis, learning low level system design, building this portfolio, sleeping. Fun fact: I can fall asleep anytime, anywhere.",
+  aboutMe: "I believe discipline triumphs motivation. I'm crazy about distribute systems and fintech. At the moment, I'm juggling through a lot of things: my thesis, learning low level system design, building this portfolio etc...",
   skills_1: ["Java", "Python", "Spring Boot", "C#", ".NET Framework", "Spring Cloud", "JavaScript", "React", "HTML", "CSS", "Spring Data", "JPA"],
   skills_2: ["PostgreSQL","MongoDB","MySQL","DynamoDB", "Cassandra", "Apache Kafka", "Ghidra"],
   skills_3: ["GitLab CI/CD", "Docker", "Kubernetes", "Apache Zookeeper", "Linux shell Scripting", "Google Cloud", "AWS", "HAProxy"],
