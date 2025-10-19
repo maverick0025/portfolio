@@ -22,7 +22,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             <div class="space-y-8">
               {siteConfig.education.map((edu) => (
                 <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-5 md:p-6 hover:shadow-md transition-shadow duration-300">
-                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
+                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                     <div>
                       <h3 class="text-lg sm:text-xl font-semibold text-gray-900">
                         {edu.degree}
@@ -38,7 +38,20 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                       {edu.dateRange}
                     </span>
                   </div>
+                  <div>
+                    {edu.relevantCourseWork?()=>(
+                    <div class="flex flex-wrap gap-2 content-center py-3">
+                      {edu.relevantCourseWork?.map((course) => (
+                        <div class="sm:text-base rounded-full text-center bg-gray-300 text-gray-800 px-3">
+                          {course}
+                        </div>
+                      ))}  
+                    </div>  
+                    ):<div/>}
 
+                  </div>
+                  
+                  
                   <ul class="space-y-2">
                     {edu.achievements.map((achievement) => (
                       <li class="flex items-start">

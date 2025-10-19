@@ -11,7 +11,10 @@ export const siteConfig = {
   },
   aboutMe:
     "Homo Sapien on a quest ",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills_1: ["Java", "Python", "Spring Boot", "C#", ".NET Framework", "Spring Cloud", "JavaScript", "React", "HTML", "CSS", "Spring Data", "JPA"],
+  skills_2: ["PostgreSQL","MongoDB","MySQL","DynamoDB", "Cassandra", "Apache Kafka", "Ghidra"],
+  skills_3: ["GitLab CI/CD", "Docker", "Kubernetes", "Apache Zookeeper", "Linux shell Scripting", "Google Cloud", "AWS", "HAProxy"],
+
   projects: [
     {
       name: "THESIS: An investigation into the innerworkings of JIT compilers",
@@ -123,6 +126,12 @@ export const siteConfig = {
       school: "University of Kansas",
       degree: "Master of Science in Computer Science",
       dateRange: "2023 - 2025",
+      relevantCourseWork: [
+        "Operating Systems",
+        "High-Performance Computing",
+        "Software Reverse Engineering",
+        "Software Security Auditing"
+      ],
       achievements: [
         "Graduated Magna Cum Laude with 4.0 GPA",
         "Dean's List all semesters",
