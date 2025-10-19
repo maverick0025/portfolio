@@ -51,8 +51,8 @@ export const siteConfig = {
         "94.3% faster than Merge sort in worst case",
         "99.9% faster than Bubble sort in worst case"
       ],
-        link: "https://github.com/maverick0025/distributedSystemsAndCloudComputingInJava",
-      skills: ["Java", "ZooKeeper", "GCP", "HA Proxy", "Kafka", "Protocol Buffer"],
+        link: "https://github.com/maverick0025/MubbleSort",
+      skills: ["Python"],
     },
     {
       name: "Privacy Preserving Dissease Detection using Neural Networks",
