@@ -130,8 +130,8 @@ export const siteConfig = {
       ],
     },
     {
-      school: "Certifications",
-      degree: "Udemy",
+      school: "Udemy",
+      degree: "Certifications",
       dateRange: "2023 - 2025",
       achievements: [
         "Microservices with Spring Boot and Spring Cloud",
@@ -140,8 +140,8 @@ export const siteConfig = {
       ],
     },
     {
-      school: "Certifications",
-      degree: "LinkedInLearning",
+      school: "LinkedInLearning",
+      degree: "Certifications",
       dateRange: "2021-2023",
       achievements: [
         "Java Object-Oriented Programming",
@@ -151,8 +151,8 @@ export const siteConfig = {
       ],
     },
     {
-      school: "Certifications",
-      degree: "Coursera",
+      school: "Coursera",
+      degree: "Certifications",
       dateRange: "2020",
       achievements: [
         "IBM Machine Learning with Python Professional Certification",
