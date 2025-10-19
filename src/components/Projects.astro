@@ -74,7 +74,14 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         <p
                           class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
                         >
-                          {project.description}
+                          {project.description.map((point)=>( 
+                            <li class="flex items-start">
+                          <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                          <span class="text-sm sm:text-base text-gray-600">
+                            {point}
+                          </span>
+                        </li>
+                          ))}
                         </p>
 
                         {project.skills && project.skills.length > 0 && (
