@@ -42,6 +42,19 @@ export const siteConfig = {
       skills: ["Java", "ZooKeeper", "GCP", "HA Proxy", "Kafka", "Protocol Buffer"],
     },
     {
+      name: "Mubble Sort - A Novel Hybrid Sorting Algorithm",
+      description:
+      [
+        "A novel hybrid sorting algorithm, that combines the low-overhead simplicity of Bubble Sort with the scalability and stability of Merge Sort.",
+        "Beats Intro sort (standard sorting algorithm in C++) by 89.01% in worst case scenario",
+        "Beats Tim sort (standard sorting algorithm in Python) by 8.8% in worst case scenario",
+        "94.3% faster than Merge sort in worst case",
+        "99.9% faster than Bubble sort in worst case"
+      ],
+        link: "https://github.com/maverick0025/distributedSystemsAndCloudComputingInJava",
+      skills: ["Java", "ZooKeeper", "GCP", "HA Proxy", "Kafka", "Protocol Buffer"],
+    },
+    {
       name: "Privacy Preserving Dissease Detection using Neural Networks",
       description:
       [
