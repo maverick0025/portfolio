@@ -9,7 +9,7 @@ export const siteConfig = {
     twitter: "https://x.com/Satya_Ashok_",
     github: "https://github.com/maverick0025",
   },
-  aboutMe: "I believe discipline triumphs motivation. I'm crazy about distributed systems and fintech. At the moment, I'm juggling through a few things: my thesis, teaching, mentoring, learning low level system design, building this portfolio etc...",
+  aboutMe: "I believe discipline triumphs motivation. I'm crazy about distributed systems and fintech. At the moment, I'm actively looking for Software Engineer roles. Parallelly, I'm grinding leetcode, high level design, low level design, and learning AWS handson. I might look at getting an AWS solution architect certification. Do reach out at dowluri01@gmail.com if you want to chat about any latest technology, philosophy, world history, or if you wanna hear a joke!",
   skills_1: ["Java", "Python", "Spring Boot", "C#", ".NET Framework", "Spring Cloud", "JavaScript", "React", "HTML", "CSS", "Spring Data", "JPA"],
   skills_2: ["PostgreSQL","MongoDB","MySQL","DynamoDB", "Cassandra", "Apache Kafka", "Ghidra"],
   skills_3: ["GitLab CI/CD", "Docker", "Kubernetes", "Apache Zookeeper", "Linux shell Scripting", "Google Cloud", "AWS", "HAProxy"],
