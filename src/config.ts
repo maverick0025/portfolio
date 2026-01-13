@@ -9,8 +9,8 @@ export const siteConfig = {
     twitter: "https://x.com/Satya_Ashok_",
     github: "https://github.com/maverick0025",
   },
-  aboutMe: "I believe discipline and consistency triumphs motivation and raw skill. I'm crazy about distributed systems and fintech. At the moment, I'm actively looking for Software Engineer roles. Parallelly, I'm grinding leetcode, high level design, low level design, and learning AWS handson. I might look at getting an AWS solution architect certification. Do reach out at dowluri01@gmail.com if you want to chat about any latest technology, philosophy, world history, or if you wanna hear a joke!",
-  skills_1: ["Java", "Python", "C", "Spring Boot", "C#", ".NET Framework", "Spring Cloud", "JavaScript", "React", "HTML", "CSS", "Spring Data", "JPA"],
+  aboutMe: "I believe discipline and consistency triumphs motivation and raw skill. I'm passionate with building backend systems. At the moment, I'm actively looking for Software Engineer roles. Parallelly, I'm grinding leetcode, high level design, low level design, and learning AWS handson. I might look at getting an AWS solution architect certification. Do reach out at dowluri01@gmail.com if you want to chat about any latest technology, philosophy, world history, or if you wanna hear a joke!",
+  skills_1: ["Java", "Python", "C", "C#", "Spring Boot", "C#", ".NET Framework", "Spring Cloud", "JavaScript", "React", "HTML", "CSS", "Spring Data", "JPA"],
   skills_2: ["PostgreSQL","MongoDB","MySQL","DynamoDB", "Cassandra", "Apache Kafka", "Ghidra"],
   skills_3: ["GitLab CI/CD", "Docker", "Kubernetes", "Apache Zookeeper", "Linux shell Scripting", "Google Cloud", "AWS", "HAProxy"],
 
@@ -119,10 +119,11 @@ export const siteConfig = {
         "Operating Systems",
         "High-Performance Computing",
         "Software Reverse Engineering",
-        "Software Security Auditing"
+        "Software Security Auditing",
+        "Distributed Systems and Cloud Computing"
       ],
       achievements: [
-        "About to graduate Magna Cum Laude with 4.0 GPA",
+        "Graduated Magna Cum Laude with 4.0 GPA and a thesis",
         "President of the KU Taekwondo Club",
       ],
     },
