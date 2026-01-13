@@ -16,19 +16,6 @@ export const siteConfig = {
 
   projects: [
     {
-      name: "THESIS: An investigation into the innerworkings of JIT compilers",
-      description:
-      [
-        "This is my research work towards my dissertation for my masters at the University of Kansas",
-        "Investigated performance trade-offs in experimental JIT compilation for Python 3.14 and PyPy runtimes.",
-        "Extended Python’s JIT by adding a new command-line interface to tune threshold parameters at runtime, enabling fine-grained control over trace compilation and optimizations.",
-        "Proposed and implemented a benchmark-specific tuning methodology for JIT thresholds, optimizing execution time, memory usage, and cache performance.",
-        "Achieved measurable runtime and resource efficiency improvements, contributing to the understanding of Python’s JIT internals."
-      ],
-        link: "https://github.com/maveric0025",
-      skills: ["Python", "PyPy", "Bash Scripting"],
-    },
-    {
       name: "Fault Tolerant Distributed Search Engine",
       description:
       [
@@ -75,14 +62,19 @@ export const siteConfig = {
   experience: [
     {
       company: "University of Kansas",
-      title: "Graduate Teaching Assistant",
-      dateRange: "Aug 2025 - Present",
-      bullets: [
-        "Teaching young minds (freshmen) Calculus.",
-        "I teach 65 students in this class.",
-        "Fun fact: Three of my students are athletes and they play Basketball, Softball, Soccer for the University."
+      title: "Graduate Research Assistant",
+      dateRange: "Jan 2025 - Dec 2025",
+      bullets:
+      [
+        "THESIS: An investigation into the innerworkings of JIT compilers",
+        "This is my research work towards my dissertation for my masters at the University of Kansas",
+        "Analyzed performance trade-offs in CPython 3.14 experimental JIT and PyPy, characterizing optimization efficacy across diverse workloads (numeric computing, data processing, algorithmic puzzles, template rendering, and networking)",
+        "Extended Python 3.14 experimental JIT with a dynamic command-line interface to tune 6 critical threshold parameters at runtime, enabling fine-grained control over adaptive specialization and side-exit strategies.",
+        "Designed and implemented a benchmark-specific JIT threshold tuning methodology, which delivered 40-60% throughput gains on targeted benchmarks while lowering memory usage and improving cache locality."
       ],
-    },
+        link: "https://github.com/maverick0025",
+      skills: ["Python", "PyPy", "Bash Scripting", "Linux", "perf", "JIT Compilers"],
+    }, 
     {
       company: "Paycom",
       title: "Software Development Intern",
@@ -93,15 +85,15 @@ export const siteConfig = {
         "Received MVP recognition at Paycom’s Hackathon for creating a project management website that improved internal business operations.",
         "Technologies: C#, .NET Web API, React, JavaScript, MySQL, JWT"
       ],
-    },
+    },       
     {
       company: "University of Kansas",
       title: "Graduate Teaching Assistant",
-      dateRange: "Jan 2024 - May 2025",
+      dateRange: "Jan 2024 - Dec 2024",
       bullets: [
-        "Assisted in teaching Operating Systems (Dr. Prasad Kulkarni, Dr. Heechul Yun) and Introduction to Logic Design (Dr. David O Johnson) courses, emphasizing foundational computer science concepts.",
-        "Led hands-on labs for 120 students, fostering deep understanding of Operating Systems and VHDL principles through engaging, practical exercises.",
-        "Provided exceptional mentorship and guidance to students, enhancing their debugging, and problem-solving capabilities."
+        "Instructed Operating Systems labs (Dr. Prasad Kulkarni, Dr. Heechul Yun) for over 180 students, designing hands-on exercises on kernel scheduling, memory management, and other operating systems concepts, which enhanced students’ practical understanding",
+        "Also Instructed Businesss Calculus (Dr Sarah Browne) and VHDL programming (Dr. David Johnson)",
+        "Fun fact: Three of my students are athletes and they play Basketball, Softball, Soccer for the University"
       ],
     },
     {
@@ -109,14 +101,12 @@ export const siteConfig = {
       title: "Software Engineer",
       dateRange: "Jun 2021 - June 2023",
       bullets: [
-        "Developed Hatio Payouts by integrating Citibank, ICICI Bank, and Paytm Payments Bank APIs via gRPC, delivering secure, high-performance payment solutions.",
-        "Introduced features like Manual Deposit and Withdrawal processes to Coinome, a cryptocurrency broker web application, boosting speed and elevating user satisfaction.",
-        "Achieved approximately 10-30x performance improvement by replacing complex multi-table analytical queries with materialized views.",
-        "Streamlined design efficiency by reducing feature space by 50KB, crafting custom, functional CSS icons.",
-        "Designed and developed the Coinome Operations Admin Portal, addressing critical business needs and enhancing daily workflow.",
-        "Served as Scrum Master for 2 months, ensuring timely project delivery, fostering seamless team collaboration, and guiding a shift to test-driven development practices.",
+        "Developed Hatio Payouts, integrating Citibank, ICICI Bank, and Paytm Payments Bank APIs via gRPC, delivering secure, high-performance B2C payouts processing 10K+ daily transactions and 99.9% uptime",
+        "Introduced features like Manual Deposit and Withdrawal processes to Coinome, a cryptocurrency broker web application, boosting speed and elevate user satisfaction",
+        "Achieved 20-30x performance improvement by replacing 10+ complex multi-table analytical queries with materialized views",
+        "Designed Operations Admin Portal with fine-grained RBAC serving 50+ compliance and customer service staff, managing 4+ workflows addressing critical business needs",
+        "Served as Scrum Master, rotating with peers across 2-month sprint cycles, applying agile methodologies and Git version control to ensure timely project delivery, fostering team collaboration, and guiding a shift to test-driven development practices",
         "Technologies: Java, Spring Boot, PostgreSQL, Protocol Buffers, gRPC, GitLab CI/CD, Docker, Kubernetes"
-        // "Implemented CI/CD pipeline reducing deployment time by 60%",
       ],
     },
   ],
